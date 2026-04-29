@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pr21 {
+public class Pr21 {
 
     void checkEligibility(int age) {
         if (age < 18) {
