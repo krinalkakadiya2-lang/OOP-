@@ -1,4 +1,4 @@
-public class pr20 {
+public class Pr20 {
     public static void main(String[] args) {
         try {
             if (args.length < 2) {
