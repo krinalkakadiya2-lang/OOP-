@@ -18,10 +18,10 @@ package exam;
 
 import student.Student;
 
-public class pr19 extends Student {
+public class Pr19 extends Student {
     int marks1, marks2, marks3;
 
-    public pr19(int rollNo, String name, int m1, int m2, int m3) {
+    public Pr19(int rollNo, String name, int m1, int m2, int m3) {
         super(rollNo, name);
         this.marks1 = m1;
         this.marks2 = m2;
@@ -41,7 +41,7 @@ public class pr19 extends Student {
     }
 
     public static void main(String[] args) {
-        pr19 r = new pr19(101, "Krinal", 75, 80, 70);
+        Pr19 r = new Pr19(101, "Krinal", 75, 80, 70);
         r.displayResult();
     }
 }
