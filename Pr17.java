@@ -25,8 +25,8 @@ class Result implements Exam, Classify {
     }
 }
 
-public class pr17 {
-    public static void main(String[] args) {
+public class Pr17 {
+    public pr17 void main(String[] args) {
         Result r = new Result();
 
         int marks = 55;
